@@ -1,0 +1,449 @@
+:root {
+    --color-white:var(--text);
+    --color-white2:var(--light);
+    --dark-color1:var(--bg-soft);
+    --dark-color2:var(--bg);
+    --dark-color3:var(--dark);
+    --dark-color4:var(--panel);
+    --color-gray:var(--muted);
+    --color-gray1:var(--muted);
+
+    --title-color:var(--dark);
+    --text-color:var(--muted);
+    --color-black2:var(--dark);
+    --color-border5:rgb(0 107 80 / 5%);
+    --color-border15:rgb(0 107 80 / 15%);
+    --primary-color:var(--a);
+    --black-op3:rgb(0 0 0 / 3%);
+    --black-op5:rgb(0 0 0 / 5%);
+    --black-op10:var(--shadow);
+    --black-op15:rgb(0 0 0 / 15%);
+    --black-op20:rgb(0 0 0 / 20%);
+    --black-op60:rgb(0 0 0 / 60%);
+    --black-op80:rgb(0 0 0 / 80%);
+    --dark-primary:var(--a);
+    --white-op7:rgb(255 255 255 / 7%);
+    --white-op10:rgb(255 255 255 / 10%);
+    --white-op20:var(--line);
+    --white-op50:rgb(255 255 255 / 50%);
+    --white-op60:rgb(255 255 255 / 60%);
+    /* dark gradient */
+    --dark-gradient-1:linear-gradient(313.49deg, var(--deep-green) 2.4%, var(--bg-soft) 49.55%, var(--bg) 82.23%);
+    --dark-gradient-2:linear-gradient(180deg, rgba(3, 23, 18, 0) 60%, var(--bg) 100%);
+
+
+}
+
+
+/* serinic dark */
+.galary-sp1 {
+    top: 42%;
+}
+.hero-section-one {
+    padding: 240px 0px 150px;
+    background:transparent;
+    margin-top: -100px;
+    z-index: 2;
+}
+.serinic-header-area {
+    z-index: 3;
+    background: transparent;
+}
+
+.serinic-header-area .transparent-style {
+    border-radius: 100px;
+    background: rgb(200 255 32 / 15%);
+}
+
+.our-future-section {
+    background: var(--dark-color1);
+}
+.section-title h1, .section-title h2 {
+    color: var(--color-white);
+}
+.hztab-panel-item {
+    border: 1px solid var(--white-op10);
+    background: var(--white-op7);
+}
+.hztab-icon a {
+    background: var(--white-op7);
+    color: var(--color-white);
+}
+.hz-title h1 {
+    color: var(--color-white);
+}
+.project-section-one {
+    background: var(--dark-color2);
+}
+.single-project-box {
+    border: 1px solid var(--white-op10);
+    background: var(--dark-color1);
+}
+.project-title {
+    color: var(--color-white);
+}
+.project-desc {
+    color: var(--white-op60);
+}
+
+.project-section-one .single-project-box {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(27, 24, 36, 1);
+ 
+}
+
+.testimonial-section-two {
+    background: var(--dark-color1);
+}
+.testimonial-section-two .counter-text span {
+    color: var(--color-white);
+}
+.testimonial-section-two .counter-text h2,
+.testimonial-section-two .counter-text h3,
+.testimonial-section-two .counter-text p, .project-section-one .project-title {
+    color: var(--color-white);
+}
+.image-anime:after {
+    background-color: rgb(7 27 21 / 30%);
+}
+.testimonial-section-two .testi-desc p, .project-section-one .project-desc {
+    color: var(--white-op60);
+}
+.testimonial-section-two .testi-desc p::before {
+    background: linear-gradient(90deg, var(--bg) 0%, var(--text) 50%, var(--bg) 100%);
+}
+.testimonial-section-two .testi-prev, .testi-next {
+    border: 1px solid var(--white-op20);
+    color: var(--color-white);
+}
+.testimonial-section-two .testi-prev svg path, .testi-next svg path{
+    fill: var(--color-white);
+}
+.testimonial-section-two .testi-prev:hover svg path{
+    fill: var(--title-color);
+}
+.testimonial-section-two .testi-next:hover svg path{
+    fill: var(--title-color);
+}
+.testimonial-section-two .autor-title {
+    color: var(--color-white);
+}
+.testimonial-section-two .autor-desc {
+    color: var(--white-op60);
+}
+.sustainability-section{
+    background: var(--dark-color1);
+}
+.sustainability-info-card {
+    background: var(--white-op7);
+    border: 1px solid var(--white-op10);
+}
+.sustainability-info-card h2,
+.sustainability-info-card.environmental h3 {
+    color: var(--color-white);
+}
+.sustainability-info-card p{
+    color: var(--white-op60);
+}
+.sustainability-info-card > a {
+    background: var(--white-op7);
+    color: var(--dark-primary);
+}
+.sustainability-info-card .meta,
+.sustainability-info-card .meta-date {
+    color: var(--dark-primary);
+}
+.sustainability-info-card .meta-date::before {
+    background: var(--color-white);
+}
+.sustainability-info-card:hover .meta{
+    color: var(--color-white);
+}
+.sustainability-info-card:hover .meta-date{
+    color: var(--color-white);
+}
+.sustainability-info-card:hover .meta-date::before {
+    background: var(--color-white);
+}
+
+/* home page two dark */
+
+.brand-area-one,
+.about-section-one,
+.service-section-one,
+.process-section-two,
+.faq-area-one{
+    background: var(--title-color);
+}
+.brand-desc p,
+.about-section-one .about-title h1,
+.about-section-one .counter-text h2,
+.about-section-one .counter-text span,
+.award-item h2,
+.accordion li a{
+    color: var(--color-white);
+}
+.brand-area-one .brand-border {
+    border-bottom: 1px solid var(--white-op10);
+}
+.section-sub-title .sub-title-2 {
+    color: var(--dark-primary);
+}
+.section-sub-title .sub-title-2::before{
+    background: var(--dark-primary);
+}
+.about-section-one .about-tag-list ul li {
+    background: rgb(255 255 255 / 7%);
+    border: 1px solid rgb(255 255 255 / 10%);
+}
+.about-section-one .about-tag-list ul li a,
+.work-history-section .work-info-meta ul li span{
+    color: var(--color-white);
+}
+.about-section-one .counter-text p,
+.work-history-section .work-info-desc,
+.work-history-section .work-info-meta ul li p,
+.accordion li p{
+    color: var(--white-op60);
+}
+.about-section-one .about-counter .counter-text p {
+    color: var(--color-white);
+}
+.project-section-two{
+    background: rgb(27, 23, 37);
+}
+.project-section-two .project-thumb:before {
+    background:var(--black-op10);
+}
+.project-section-two .project-thumb img {
+    border-radius: 30px;
+}
+.awards-section-one {
+    background: var(--dark-color3);
+}
+.award-item {
+    background: rgb(200 255 32 / 5%);
+}
+.award-item::before {
+    background:linear-gradient(208.06deg, rgba(255, 255, 255, 0.02) 16.88%, #FFFFFF 43.01%, #FFFFFF 56.32%, rgba(255, 255, 255, 0.02) 72.92%);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+}
+.process-section-two .process-icon {
+    background: var(--title-color);
+    border: 1px dashed var(--white-op50);
+}
+.process-icon img {
+    filter: blur(0) invert(1);
+}
+.process-section-two .process-item-box:hover .process-icon img{
+    filter: brightness(1)invert(0);
+}
+.process-section-two .process-content {
+    background: var(--white-op5);
+    border: 1px solid var(--black-op10);
+    box-shadow:none;
+}
+.process-section-two .process-title,
+.work-history-section .work-info-title {
+    color: var(--color-white);
+}
+.process-section-two .process-desc,
+.blog-desc{
+    color: var(--white-op60);
+}
+.process-section-two .process-number {
+    color:var(--dark-color1);
+}
+.work-history-section{
+    background: var(--dark-color4);
+}
+.work-history-section .work-panel {
+    background: var(--title-color);
+}
+.work-history-section .work-info-meta ul li {
+    border-bottom: 1px solid var(--white-op7);
+}
+.accordion li a span:before {
+    background: var(--panel);
+    border: 1px solid #0000000D;
+}
+.accordion a.active:after,
+.accordion a:before,
+.accordion a:after {
+    background: var(--color-white);
+}
+.accordion li {
+    border-bottom: 1px solid var(--white-op7);
+}
+.blog-section-one{
+    background: var(--dark-color1);
+}
+
+.single-blog-box {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.blog-meta a svg path, .blog-meta p svg path {
+    fill: var(--primary-color);
+}
+.blog-meta a, .blog-meta p,
+.blog-title a{
+    color: var(--color-white);
+}
+
+/* home page 03 dark */
+
+.serinic-header-area.style-three{
+    background: var(--dark-color2);
+}
+.serinic-header-area.style-three .header-menu ul li a{
+    color: var(--color-white);
+}
+.serinic-header-area.style-three .header-menu ul li a i{
+    color: var(--color-white);
+}
+.dark-bg{
+    background:var(--dark-color1);
+}
+.hero-section-three .hero-wrapper {
+    background: var(--dark-color2);
+}
+.hero-section-three .hero_content .hero-title {
+    color: var(--color-white);
+}
+.hero-section-three .hero_content .hero-desc,
+.wind-power-section .wind-disc {
+    color: var(--white-op60);
+}
+.hero-section-three .hero-btn a {
+    background: var(--dark-primary);
+}
+.hero-section-three .hero-btn a::after {
+    background: var(--color-white);
+}
+.hero-section-three .hero-btn a:hover {
+    color: var(--title-color);
+}
+.hero-section-three .hero-btn.two a {
+    background: var(--dark-color1);
+    border: 1px solid #FFFFFF12;
+    color: var(--color-white);
+}
+.hero-section-three .hero-btn.two a:hover{
+    color: var(--title-color);
+}
+.brand-area-two {
+    background: var(--dark-color2);
+}
+.brand-area-two .brand-border {
+    border-bottom: 1px solid var(--white-op10);
+}
+.wind-power-section {
+    background: var(--dark-color2);
+}
+.wind-power-section .wind-card-item:before {
+    background: var(--dark-color1);
+}
+.wind-power-section .wind-title,
+.wind-power-section .wind-list li,
+.solution-item h2 {
+    color: var(--color-white);
+}
+.windmill-location-section {
+    background: var(--dark-color2);
+}
+.windmill-location-section .section-desc p,
+.solution-item p{
+    color:var(--white-op60);
+}
+.future-solution-section {
+    background: var(--dark-color2);
+}
+.solution-item {
+    border-top: 1px solid var(--white-op10);
+    background: var(--dark-color1);
+    border-radius: 8px;
+    padding: 20px 30px 25px;
+}
+.testimonial-section-three {
+    background: var(--dark-color1);
+}
+.testimonial-section-three .section-desc p,
+.testimonial-section-three .testimonial-desc {
+    color: var(--white-op60);
+}
+.testimonial-section-three .testimonial-box {
+    background: var(--dark-color2);
+}
+.testimonial-section-three .star {
+    filter: brightness(0)invert(1);
+}
+.testimonial-section-three .brand,
+.testimonial-section-three .autor-title,
+.testimonial-section-four .autor-title {
+    color: var(--color-white);
+}
+.testimonial-section-three .autor-desc {
+    color: var(--dark-primary);
+}
+.faq-area-two {
+    background: var(--dark-color1);
+}
+.blog-section-two,
+.testimonial-section-four {
+    background: var(--dark-color2);
+}
+.testimonial-section-four .counter-text h2,
+.testimonial-section-four .counter-text h3,
+.testimonial-section-four .counter-text span,
+.testimonial-section-four .counter-text p {
+    color: var(--color-white);
+}
+.testimonial-section-four .testi-content {
+    background: var(--dark-color1);
+}
+.testimonial-section-four .testi-desc p,
+.testimonial-section-four .autor-desc {
+    color: var(--white-op60);
+}
+.testimonial-section-four .testi-desc p::before {
+    background: linear-gradient(90deg, var(--bg-soft) 0%, var(--a) 50%, var(--bg-soft) 100%);
+}
+.call-to-action-section {
+    background: var(--dark-color2);
+}
+.testimonial-section-four .testi-prev svg path{
+  fill: white;  
+}
+.testimonial-section-four .testi-next svg path{
+    fill: white;  
+} 
+.testimonial-section-four .testi-prev{
+    border: 1px solid var(--white-op20);
+    color: var(--color-white);
+}
+.hero-section-three .counter-text h2 {
+    color: var(--color-white);
+}
+.hero-section-three .counter-text span {
+    color: var(--color-white);
+
+}
+.hero-section-three .counter-text p {
+    color: var(--color-white);
+}
+.blog-section-two .section-desc p {
+    color: var(--color-white);
+    width: 90%;
+}
+
+.blog-user a, .blog-comment span {
+    color: #fff;
+}
+
+.blog-bottom {
+    border-top: 1px solid var(--white-op60);
+}

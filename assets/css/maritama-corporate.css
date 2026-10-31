@@ -1,0 +1,27 @@
+/* Corporate page refinements — scoped to About Us and Services only */
+.mt-corporate{--mt-ink:#123125;--mt-accent:#c2f361;overflow:clip}
+.mt-corporate .mt-hero{min-height:610px;padding:112px 0;display:flex;align-items:center;background-color:#102b22;position:relative;isolation:isolate}
+.mt-corporate .mt-hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(6,30,21,.95) 0%,rgba(7,31,22,.86) 36%,rgba(7,31,22,.25) 100%),var(--mt-hero-image) center / cover no-repeat;z-index:-1}
+.mt-corporate .mt-hero h1{font-size:clamp(40px,5.2vw,74px);letter-spacing:-.035em;max-width:850px;text-wrap:balance}
+.mt-corporate .mt-hero p{font-size:clamp(16px,1.6vw,20px);line-height:1.65;max-width:670px}
+.mt-corporate .mt-section{padding-block:clamp(64px,7vw,108px)}
+.mt-corporate .mt-section h2{letter-spacing:-.025em;text-wrap:balance}
+.mt-corporate .mt-section p{max-width:72ch}
+.mt-corporate .mt-grid{gap:clamp(30px,5vw,80px)}
+.mt-corporate .mt-visual{padding:0;min-height:390px;aspect-ratio:5/4;overflow:hidden;background:#1b4533}
+.mt-corporate .mt-visual img{width:100%;height:100%;max-height:none;object-fit:cover;display:block;transition:transform .5s ease}
+.mt-corporate .mt-visual:hover img{transform:scale(1.025)}
+.mt-corporate .mt-card{height:100%;border:1px solid rgba(25,55,39,.1);transition:transform .2s ease,box-shadow .2s ease}
+.mt-corporate .mt-card:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(12,37,25,.12)}
+.mt-corporate .mt-card a:not(.mt-button){color:#265a39;font-weight:700;text-decoration:underline;text-underline-offset:4px}
+.mt-corporate .mt-button{transition:transform .2s ease,background-color .2s ease}
+.mt-corporate .mt-button:hover{transform:translateY(-2px);background:#ddff95}
+.mt-corporate .mt-photo-strip{display:grid;grid-template-columns:1.1fr 1fr 1fr;gap:14px;margin-top:36px}
+.mt-corporate .mt-photo-strip figure{margin:0;min-height:200px;position:relative;overflow:hidden;border-radius:9px;background:#143a2b}
+.mt-corporate .mt-photo-strip img{width:100%;height:100%;min-height:200px;max-height:270px;object-fit:cover;display:block}
+.mt-corporate .mt-photo-strip figcaption{position:absolute;bottom:0;left:0;right:0;padding:22px 16px 14px;color:#fff;font-size:14px;font-weight:700;background:linear-gradient(transparent,rgba(7,26,18,.88))}
+.mt-corporate a:focus-visible{outline:3px solid #c2f361;outline-offset:4px}
+.mt-corporate .mt-section-green .mt-card{background:#fff;color:#173326}
+@media(max-width:991px){.mt-corporate .mt-hero{min-height:520px}.mt-corporate .mt-cards{grid-template-columns:repeat(2,minmax(0,1fr))}.mt-corporate .mt-photo-strip{grid-template-columns:repeat(2,minmax(0,1fr))}.mt-corporate .mt-photo-strip figure:first-child{grid-column:span 2}}
+@media(max-width:700px){.mt-corporate .mt-hero{min-height:460px;padding:74px 0}.mt-corporate .mt-hero:before{background:linear-gradient(90deg,rgba(6,30,21,.96),rgba(6,30,21,.62)),var(--mt-hero-image) center / cover no-repeat}.mt-corporate .mt-hero h1{font-size:clamp(34px,9vw,48px)}.mt-corporate .mt-grid,.mt-corporate .mt-cards{grid-template-columns:1fr}.mt-corporate .mt-visual{min-height:250px;aspect-ratio:4/3}.mt-corporate .mt-photo-strip{grid-template-columns:1fr}.mt-corporate .mt-photo-strip figure:first-child{grid-column:auto}.mt-corporate .mt-photo-strip img{max-height:240px}.mt-corporate .mt-card{padding:25px}}
+@media(prefers-reduced-motion:reduce){.mt-corporate .mt-card,.mt-corporate .mt-visual img,.mt-corporate .mt-button{transition:none}}
